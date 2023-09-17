@@ -7,7 +7,7 @@
 ### 트레이너가 매칭 확정 및 취소 할 수 있는 버튼 생성
 ##### 매칭 확정 버튼 누르면 participate 값이 true(1)로 변경 후 확정 취소 버튼으로 변경
 ##### 매칭 취소 버튼 누르면 particiapte 값이 false(0)로 변경 후 다시 매칭 확정 버튼으로 변경
-### ajax, javascrip, jquery를 이용해 만들어둠
+### ajax, javascript, jquery를 이용해 만들어둠
 ### 트랜잭션으로 변경 가능하지 않을까 싶음<br><br>
 # 남은 일
 ### participate 값이 0일 때 매칭 신청 버튼 활성화
