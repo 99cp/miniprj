@@ -1,0 +1,538 @@
+[2023-09-17 18:58:02.331] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+[2023-09-17 18:58:02.338] [INFO ] [main] com.bloom.pium.PiumApplication Starting PiumApplication using Java 19.0.2 on DESKTOP-BB77O90 with PID 17236 (C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew\build\classes\java\main started by lbs99 in C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew)
+[2023-09-17 18:58:02.339] [INFO ] [main] com.bloom.pium.PiumApplication No active profile set, falling back to 1 default profile: "default"
+[2023-09-17 18:58:03.111] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-09-17 18:58:03.477] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 355 ms. Found 3 JPA repository interfaces.
+[2023-09-17 18:58:04.041] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9090 (http)
+[2023-09-17 18:58:04.048] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9090"]
+[2023-09-17 18:58:04.050] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-09-17 18:58:04.050] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.79]
+[2023-09-17 18:58:04.152] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-09-17 18:58:04.153] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1783 ms
+[2023-09-17 18:58:04.294] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-09-17 18:58:04.357] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-09-17 18:58:04.514] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-09-17 18:58:04.611] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-09-17 18:58:04.876] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-09-17 18:58:04.902] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2023-09-17 18:58:05.488] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-09-17 18:58:05.494] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 18:58:05.864] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-09-17 18:58:05.961] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-09-17 18:58:06.177] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9090"]
+[2023-09-17 18:58:06.189] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9090 (http) with context path ''
+[2023-09-17 18:58:06.189] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-09-17 18:58:06.203] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-09-17 18:58:06.217] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-09-17 18:58:06.309] [INFO ] [main] com.bloom.pium.PiumApplication Started PiumApplication in 4.314 seconds (JVM running for 4.744)
+[2023-09-17 18:58:19.637] [INFO ] [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-09-17 18:58:19.637] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-09-17 18:58:19.638] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-09-17 19:03:26.256] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 19:03:26.257] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-09-17 19:03:26.262] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-09-17 19:03:28.394] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+[2023-09-17 19:03:28.398] [INFO ] [main] com.bloom.pium.PiumApplication Starting PiumApplication using Java 19.0.2 on DESKTOP-BB77O90 with PID 12552 (C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew\build\classes\java\main started by lbs99 in C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew)
+[2023-09-17 19:03:28.398] [INFO ] [main] com.bloom.pium.PiumApplication No active profile set, falling back to 1 default profile: "default"
+[2023-09-17 19:03:28.873] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-09-17 19:03:28.907] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+[2023-09-17 19:03:29.234] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9090 (http)
+[2023-09-17 19:03:29.243] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9090"]
+[2023-09-17 19:03:29.244] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-09-17 19:03:29.244] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.79]
+[2023-09-17 19:03:29.314] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-09-17 19:03:29.314] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 888 ms
+[2023-09-17 19:03:29.397] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-09-17 19:03:29.427] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-09-17 19:03:29.534] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-09-17 19:03:29.594] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-09-17 19:03:29.762] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-09-17 19:03:29.780] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2023-09-17 19:03:30.202] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-09-17 19:03:30.208] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 19:03:30.502] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-09-17 19:03:30.578] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-09-17 19:03:30.740] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9090"]
+[2023-09-17 19:03:30.752] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9090 (http) with context path ''
+[2023-09-17 19:03:30.752] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-09-17 19:03:30.764] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-09-17 19:03:30.777] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-09-17 19:03:30.859] [INFO ] [main] com.bloom.pium.PiumApplication Started PiumApplication in 2.738 seconds (JVM running for 3.15)
+[2023-09-17 19:03:32.389] [INFO ] [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-09-17 19:03:32.389] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-09-17 19:03:32.390] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+[2023-09-17 19:11:22.431] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 19:11:22.432] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-09-17 19:11:22.437] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-09-17 19:11:25.764] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+[2023-09-17 19:11:25.767] [INFO ] [main] com.bloom.pium.PiumApplication Starting PiumApplication using Java 19.0.2 on DESKTOP-BB77O90 with PID 10316 (C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew\build\classes\java\main started by lbs99 in C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew)
+[2023-09-17 19:11:25.767] [INFO ] [main] com.bloom.pium.PiumApplication No active profile set, falling back to 1 default profile: "default"
+[2023-09-17 19:11:26.226] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-09-17 19:11:26.257] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 26 ms. Found 3 JPA repository interfaces.
+[2023-09-17 19:11:26.574] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9090 (http)
+[2023-09-17 19:11:26.579] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9090"]
+[2023-09-17 19:11:26.580] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-09-17 19:11:26.580] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.79]
+[2023-09-17 19:11:26.645] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-09-17 19:11:26.645] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 852 ms
+[2023-09-17 19:11:26.726] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-09-17 19:11:26.755] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-09-17 19:11:26.858] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-09-17 19:11:26.916] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-09-17 19:11:27.082] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-09-17 19:11:27.101] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2023-09-17 19:11:27.518] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-09-17 19:11:27.524] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 19:11:27.809] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-09-17 19:11:27.886] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-09-17 19:11:28.043] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9090"]
+[2023-09-17 19:11:28.055] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9090 (http) with context path ''
+[2023-09-17 19:11:28.055] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-09-17 19:11:28.066] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-09-17 19:11:28.079] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-09-17 19:11:28.158] [INFO ] [main] com.bloom.pium.PiumApplication Started PiumApplication in 2.64 seconds (JVM running for 3.007)
+[2023-09-17 19:11:30.841] [INFO ] [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-09-17 19:11:30.841] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-09-17 19:11:30.842] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-09-17 19:12:06.047] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 19:12:06.048] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-09-17 19:12:06.052] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-09-17 19:12:08.427] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+[2023-09-17 19:12:08.430] [INFO ] [main] com.bloom.pium.PiumApplication Starting PiumApplication using Java 19.0.2 on DESKTOP-BB77O90 with PID 12996 (C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew\build\classes\java\main started by lbs99 in C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew)
+[2023-09-17 19:12:08.430] [INFO ] [main] com.bloom.pium.PiumApplication No active profile set, falling back to 1 default profile: "default"
+[2023-09-17 19:12:08.858] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-09-17 19:12:08.893] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 30 ms. Found 3 JPA repository interfaces.
+[2023-09-17 19:12:09.235] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9090 (http)
+[2023-09-17 19:12:09.240] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9090"]
+[2023-09-17 19:12:09.241] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-09-17 19:12:09.241] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.79]
+[2023-09-17 19:12:09.314] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-09-17 19:12:09.315] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 861 ms
+[2023-09-17 19:12:09.405] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-09-17 19:12:09.435] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-09-17 19:12:09.539] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-09-17 19:12:09.601] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-09-17 19:12:09.767] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-09-17 19:12:09.785] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2023-09-17 19:12:10.205] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-09-17 19:12:10.211] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 19:12:10.500] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-09-17 19:12:10.575] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-09-17 19:12:10.737] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9090"]
+[2023-09-17 19:12:10.749] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9090 (http) with context path ''
+[2023-09-17 19:12:10.749] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-09-17 19:12:10.760] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-09-17 19:12:10.773] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-09-17 19:12:10.858] [INFO ] [main] com.bloom.pium.PiumApplication Started PiumApplication in 2.679 seconds (JVM running for 3.032)
+[2023-09-17 19:12:12.965] [INFO ] [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-09-17 19:12:12.965] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-09-17 19:12:12.966] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-09-17 19:14:12.489] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 19:14:12.490] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-09-17 19:14:12.495] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-09-17 19:14:14.928] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+[2023-09-17 19:14:14.930] [INFO ] [main] com.bloom.pium.PiumApplication Starting PiumApplication using Java 19.0.2 on DESKTOP-BB77O90 with PID 9032 (C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew\build\classes\java\main started by lbs99 in C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew)
+[2023-09-17 19:14:14.931] [INFO ] [main] com.bloom.pium.PiumApplication No active profile set, falling back to 1 default profile: "default"
+[2023-09-17 19:14:15.409] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-09-17 19:14:15.449] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 34 ms. Found 3 JPA repository interfaces.
+[2023-09-17 19:14:15.787] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9090 (http)
+[2023-09-17 19:14:15.792] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9090"]
+[2023-09-17 19:14:15.793] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-09-17 19:14:15.793] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.79]
+[2023-09-17 19:14:15.859] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-09-17 19:14:15.860] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 902 ms
+[2023-09-17 19:14:15.943] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-09-17 19:14:15.971] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-09-17 19:14:16.075] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-09-17 19:14:16.136] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-09-17 19:14:16.314] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-09-17 19:14:16.332] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2023-09-17 19:14:16.754] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-09-17 19:14:16.760] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 19:14:17.086] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-09-17 19:14:17.164] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-09-17 19:14:17.344] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9090"]
+[2023-09-17 19:14:17.355] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9090 (http) with context path ''
+[2023-09-17 19:14:17.356] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-09-17 19:14:17.367] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-09-17 19:14:17.382] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-09-17 19:14:17.466] [INFO ] [main] com.bloom.pium.PiumApplication Started PiumApplication in 2.797 seconds (JVM running for 3.157)
+[2023-09-17 19:14:22.783] [INFO ] [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-09-17 19:14:22.783] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-09-17 19:14:22.784] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-09-17 19:17:22.364] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 19:17:22.366] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-09-17 19:17:22.371] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-09-17 19:17:28.704] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+[2023-09-17 19:17:28.707] [INFO ] [main] com.bloom.pium.PiumApplication Starting PiumApplication using Java 19.0.2 on DESKTOP-BB77O90 with PID 9664 (C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew\build\classes\java\main started by lbs99 in C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew)
+[2023-09-17 19:17:28.708] [INFO ] [main] com.bloom.pium.PiumApplication No active profile set, falling back to 1 default profile: "default"
+[2023-09-17 19:17:29.358] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-09-17 19:17:29.398] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 33 ms. Found 3 JPA repository interfaces.
+[2023-09-17 19:17:29.802] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9090 (http)
+[2023-09-17 19:17:29.810] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9090"]
+[2023-09-17 19:17:29.811] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-09-17 19:17:29.811] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.79]
+[2023-09-17 19:17:29.920] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-09-17 19:17:29.920] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1183 ms
+[2023-09-17 19:17:30.036] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-09-17 19:17:30.076] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-09-17 19:17:30.191] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-09-17 19:17:30.258] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-09-17 19:17:30.470] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-09-17 19:17:30.493] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2023-09-17 19:17:31.002] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-09-17 19:17:31.009] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 19:17:31.355] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-09-17 19:17:31.447] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-09-17 19:17:31.637] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9090"]
+[2023-09-17 19:17:31.650] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9090 (http) with context path ''
+[2023-09-17 19:17:31.651] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-09-17 19:17:31.664] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-09-17 19:17:31.682] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-09-17 19:17:31.783] [INFO ] [main] com.bloom.pium.PiumApplication Started PiumApplication in 3.367 seconds (JVM running for 5.805)
+[2023-09-17 19:17:33.592] [INFO ] [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-09-17 19:17:33.592] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-09-17 19:17:33.594] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 2 ms
+[2023-09-17 19:17:33.881] [ERROR] [http-nio-9090-exec-1] org.thymeleaf.TemplateEngine [THYMELEAF][http-nio-9090-exec-1] Exception processing template "matching-list": An error happened during template parsing (template: "'toggleParticipation(this, ' + ${matching.matchingId} + ')" - line 1, col 1)
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "'toggleParticipation(this, ' + ${matching.matchingId} + ')" - line 1, col 1)
+	at org.thymeleaf.templateparser.text.AbstractTextTemplateParser.parse(AbstractTextTemplateParser.java:178)
+	at org.thymeleaf.templateparser.text.AbstractTextTemplateParser.parseString(AbstractTextTemplateParser.java:113)
+	at org.thymeleaf.engine.TemplateManager.parseString(TemplateManager.java:452)
+	at org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor.doProcess(StandardDOMEventAttributeTagProcessor.java:224)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1406)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1150)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.thymeleaf.templateparser.text.TextParseException: (Line = 1, Column = 1) Incomplete structure: "'toggleParticipation(this, ' + ${matching.matchingId} + ')"
+	at org.thymeleaf.templateparser.text.TextParser.parseDocument(TextParser.java:209)
+	at org.thymeleaf.templateparser.text.TextParser.parse(TextParser.java:100)
+	at org.thymeleaf.templateparser.text.AbstractTextTemplateParser.parse(AbstractTextTemplateParser.java:169)
+	... 62 common frames omitted
+[2023-09-17 19:17:33.882] [ERROR] [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "'toggleParticipation(this, ' + ${matching.matchingId} + ')" - line 1, col 1)] with root cause
+org.thymeleaf.templateparser.text.TextParseException: (Line = 1, Column = 1) Incomplete structure: "'toggleParticipation(this, ' + ${matching.matchingId} + ')"
+	at org.thymeleaf.templateparser.text.TextParser.parseDocument(TextParser.java:209)
+	at org.thymeleaf.templateparser.text.TextParser.parse(TextParser.java:100)
+	at org.thymeleaf.templateparser.text.AbstractTextTemplateParser.parse(AbstractTextTemplateParser.java:169)
+	at org.thymeleaf.templateparser.text.AbstractTextTemplateParser.parseString(AbstractTextTemplateParser.java:113)
+	at org.thymeleaf.engine.TemplateManager.parseString(TemplateManager.java:452)
+	at org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor.doProcess(StandardDOMEventAttributeTagProcessor.java:224)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1406)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1150)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+[2023-09-17 19:17:50.779] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 19:17:50.780] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-09-17 19:17:50.785] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-09-17 19:36:59.375] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+[2023-09-17 19:36:59.379] [INFO ] [main] com.bloom.pium.PiumApplication Starting PiumApplication using Java 19.0.2 on DESKTOP-BB77O90 with PID 14844 (C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew\build\classes\java\main started by lbs99 in C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew)
+[2023-09-17 19:36:59.380] [INFO ] [main] com.bloom.pium.PiumApplication No active profile set, falling back to 1 default profile: "default"
+[2023-09-17 19:36:59.920] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-09-17 19:36:59.968] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+[2023-09-17 19:37:00.312] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9090 (http)
+[2023-09-17 19:37:00.318] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9090"]
+[2023-09-17 19:37:00.319] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-09-17 19:37:00.319] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.79]
+[2023-09-17 19:37:00.391] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-09-17 19:37:00.391] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 980 ms
+[2023-09-17 19:37:00.483] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-09-17 19:37:00.513] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-09-17 19:37:00.633] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-09-17 19:37:00.702] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-09-17 19:37:00.907] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-09-17 19:37:00.928] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2023-09-17 19:37:01.425] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-09-17 19:37:01.432] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 19:37:01.781] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-09-17 19:37:01.870] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-09-17 19:37:02.074] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9090"]
+[2023-09-17 19:37:02.086] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9090 (http) with context path ''
+[2023-09-17 19:37:02.087] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-09-17 19:37:02.100] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-09-17 19:37:02.116] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-09-17 19:37:02.213] [INFO ] [main] com.bloom.pium.PiumApplication Started PiumApplication in 3.17 seconds (JVM running for 3.612)
+[2023-09-17 19:37:03.946] [INFO ] [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-09-17 19:37:03.946] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-09-17 19:37:03.947] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-09-17 19:37:04.248] [ERROR] [http-nio-9090-exec-1] org.thymeleaf.TemplateEngine [THYMELEAF][http-nio-9090-exec-1] Exception processing template "matching-list": An error happened during template parsing (template: "'toggleParticipation(this, ' + ${matching.matchingId} + ')" - line 1, col 1)
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "'toggleParticipation(this, ' + ${matching.matchingId} + ')" - line 1, col 1)
+	at org.thymeleaf.templateparser.text.AbstractTextTemplateParser.parse(AbstractTextTemplateParser.java:178)
+	at org.thymeleaf.templateparser.text.AbstractTextTemplateParser.parseString(AbstractTextTemplateParser.java:113)
+	at org.thymeleaf.engine.TemplateManager.parseString(TemplateManager.java:452)
+	at org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor.doProcess(StandardDOMEventAttributeTagProcessor.java:224)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1406)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1150)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.thymeleaf.templateparser.text.TextParseException: (Line = 1, Column = 1) Incomplete structure: "'toggleParticipation(this, ' + ${matching.matchingId} + ')"
+	at org.thymeleaf.templateparser.text.TextParser.parseDocument(TextParser.java:209)
+	at org.thymeleaf.templateparser.text.TextParser.parse(TextParser.java:100)
+	at org.thymeleaf.templateparser.text.AbstractTextTemplateParser.parse(AbstractTextTemplateParser.java:169)
+	... 62 common frames omitted
+[2023-09-17 19:37:04.250] [ERROR] [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "'toggleParticipation(this, ' + ${matching.matchingId} + ')" - line 1, col 1)] with root cause
+org.thymeleaf.templateparser.text.TextParseException: (Line = 1, Column = 1) Incomplete structure: "'toggleParticipation(this, ' + ${matching.matchingId} + ')"
+	at org.thymeleaf.templateparser.text.TextParser.parseDocument(TextParser.java:209)
+	at org.thymeleaf.templateparser.text.TextParser.parse(TextParser.java:100)
+	at org.thymeleaf.templateparser.text.AbstractTextTemplateParser.parse(AbstractTextTemplateParser.java:169)
+	at org.thymeleaf.templateparser.text.AbstractTextTemplateParser.parseString(AbstractTextTemplateParser.java:113)
+	at org.thymeleaf.engine.TemplateManager.parseString(TemplateManager.java:452)
+	at org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor.doProcess(StandardDOMEventAttributeTagProcessor.java:224)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1406)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1150)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+[2023-09-17 20:01:16.113] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 20:01:16.115] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-09-17 20:01:16.119] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-09-17 20:03:22.518] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.5.Final
+[2023-09-17 20:03:22.521] [INFO ] [main] com.bloom.pium.PiumApplication Starting PiumApplication using Java 19.0.2 on DESKTOP-BB77O90 with PID 18268 (C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew\build\classes\java\main started by lbs99 in C:\Users\lbs99\Downloads\pium-matchingBoardNew\pium-matchingBoardNew)
+[2023-09-17 20:03:22.522] [INFO ] [main] com.bloom.pium.PiumApplication No active profile set, falling back to 1 default profile: "default"
+[2023-09-17 20:03:23.114] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-09-17 20:03:23.155] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 35 ms. Found 3 JPA repository interfaces.
+[2023-09-17 20:03:23.534] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 9090 (http)
+[2023-09-17 20:03:23.540] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-9090"]
+[2023-09-17 20:03:23.541] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-09-17 20:03:23.542] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.79]
+[2023-09-17 20:03:23.623] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-09-17 20:03:23.623] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1070 ms
+[2023-09-17 20:03:23.734] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-09-17 20:03:23.777] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-09-17 20:03:23.911] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-09-17 20:03:23.989] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-09-17 20:03:24.200] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-09-17 20:03:24.223] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2023-09-17 20:03:24.747] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-09-17 20:03:24.756] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 20:03:25.144] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-09-17 20:03:25.260] [INFO ] [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-09-17 20:03:25.504] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-9090"]
+[2023-09-17 20:03:25.518] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 9090 (http) with context path ''
+[2023-09-17 20:03:25.518] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+[2023-09-17 20:03:25.533] [INFO ] [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+[2023-09-17 20:03:25.550] [INFO ] [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+[2023-09-17 20:03:25.656] [INFO ] [main] com.bloom.pium.PiumApplication Started PiumApplication in 3.454 seconds (JVM running for 3.916)
+[2023-09-17 20:20:26.448] [INFO ] [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-09-17 20:20:26.448] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[2023-09-17 20:20:26.449] [INFO ] [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+[2023-09-17 20:21:35.524] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-09-17 20:21:35.525] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-09-17 20:21:35.529] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
