@@ -19,4 +19,6 @@ public interface MatchingService {
     // 매칭 게시글 삭제
     void deleteMatching (Long matchingId);
 
+    void toggleDeadline(Long matchingId);
+
 }

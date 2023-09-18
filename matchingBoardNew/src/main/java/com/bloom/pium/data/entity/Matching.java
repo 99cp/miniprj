@@ -7,9 +7,7 @@ import java.time.LocalDateTime;
 
 @Getter
 @Setter
-@Builder
 @NoArgsConstructor
-@AllArgsConstructor
 @EqualsAndHashCode
 @ToString
 @Entity
@@ -29,6 +27,9 @@ public class Matching {
     @Column(nullable = false)
     private boolean participate;    // 참여 결정 여부
 
+    @Column(nullable = false)
+    private boolean deadline;
+
     @ManyToOne
     @JoinColumn(name = "userId")
     @ToString.Exclude
@@ -39,4 +40,18 @@ public class Matching {
     @ToString.Exclude
     private Board boardId;
 
+    public Matching(Long matchingId, String title, String comment, boolean participate, boolean deadline, UserInfo userId, Board boardId) {
+        this.matchingId = matchingId;
+        this.title = "deadline";
+        this.comment = "deadline";
+        this.participate = participate;
+        this.deadline = deadline;
+        this.userId = userId;
+        this.boardId = boardId;
+    }
+
+    public void saveToDatabase(EntityManager entityManager) {
+        entityManager.persist(this); // 이 메서드를 호출하여 엔티티를 저장합니다.
+
+    }
 }

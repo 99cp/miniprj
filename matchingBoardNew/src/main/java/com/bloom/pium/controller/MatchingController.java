@@ -52,4 +52,10 @@ public class MatchingController {
         return "redirect:/matching/list";
     }
 
+    @PostMapping("/matching/toggle-deadline/{matchingId}")
+    public String toggleDeadline(@PathVariable Long matchingId) {
+        matchingService.toggleDeadline(matchingId);
+        return "redirect:/matching-list"; // 변경 후 리다이렉트할 URL을 지정합니다.
+    }
+
 }

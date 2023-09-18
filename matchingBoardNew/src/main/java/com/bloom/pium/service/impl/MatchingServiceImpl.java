@@ -68,5 +68,14 @@ public class MatchingServiceImpl implements MatchingService {
         matchingRepository.deleteById(matchingId);
     }
 
+    @Override
+    public void toggleDeadline(Long matchingId) {
+        // matchingId를 사용하여 해당 매칭의 deadline 값을 변경하는 로직을 구현합니다.
+        Matching matching = matchingRepository.findById(matchingId)
+                .orElseThrow(() -> new RuntimeException("Matching not found"));
+        matching.setDeadline(!matching.isDeadline());
+        matchingRepository.save(matching);
+    }
+
 
 }

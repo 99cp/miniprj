@@ -20,6 +20,8 @@ public class MatchingDto {
 
     private boolean participate;    // 참여 결정 여부
 
+    private boolean deadline;
+
     private UserInfo userId;
 
     private Board boardId;
